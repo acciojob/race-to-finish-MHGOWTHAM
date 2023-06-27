@@ -3,27 +3,27 @@ window.promises=[];
 // Do not change the code above this
 // add your promises to the array `promises`
 let a=new Promise((resolve)=>{
-	setTimeOut(()=>{
+	setTimeout(()=>{
 		resolve("a");
 	},1000);
 })
 let e=new Promise((resolve)=>{
-	setTimeOut(()=>{
+	setTimeout(()=>{
 		resolve("e");
 	},2000);
 })
 let b=new Promise((resolve)=>{
-	setTimeOut(()=>{
+	setTimeout(()=>{
 		resolve("b");
 	},3000);
 })
 let c=new Promise((resolve)=>{
-	setTimeOut(()=>{
+	setTimeout(()=>{
 		resolve("c");
 	},4000);
 })
 let d=new Promise((resolve)=>{
-	setTimeOut(()=>{
+	setTimeout(()=>{
 		resolve("d");
 	},5000);
 })
