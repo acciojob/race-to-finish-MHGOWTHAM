@@ -1,4 +1,4 @@
-window.promises = [];
+
 
 // Do not change the code above this
 // add your promises to the array `promises`
@@ -28,6 +28,7 @@ let d=new Promise((resolve)=>{
 	},5000);
 })
 let x=Promise.any([a,b,c,d,e]);
+window.promises = [a,b,c,d,e];
 x.then((data)=>{
 	let p=document.getElementById("output");
 	p.innerText=data;
