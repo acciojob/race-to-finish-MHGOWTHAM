@@ -4,27 +4,27 @@ window.promises = [];
 // add your promises to the array `promises`
 let a=new Promise((resolve)=>{
 	setTimeOut(()=>{
-		resolve();
+		resolve("a");
 	},1000);
 })
 let e=new Promise((resolve)=>{
 	setTimeOut(()=>{
-		resolve();
+		resolve("e");
 	},2000);
 })
 let b=new Promise((resolve)=>{
 	setTimeOut(()=>{
-		resolve();
+		resolve("b");
 	},3000);
 })
 let c=new Promise((resolve)=>{
 	setTimeOut(()=>{
-		resolve();
+		resolve("c");
 	},4000);
 })
 let d=new Promise((resolve)=>{
 	setTimeOut(()=>{
-		resolve();
+		resolve("d");
 	},5000);
 })
 let x=Promise.any([a,b,c,d,e]);
